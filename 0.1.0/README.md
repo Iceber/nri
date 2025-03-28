@@ -96,11 +96,11 @@ A Go based API and client package will be created for both producers of plugins 
 
 ### Sample Plugin
 
-* [clearcfs](examples/clearcfs/main.go)
+* [clearcfs](./examples/clearcfs/main.go)
 
 ## Project details
 
-nri is a containerd sub-project, licensed under the [Apache 2.0 license](./LICENSE).
+nri is a containerd sub-project, licensed under the [Apache 2.0 license](../LICENSE).
 As a containerd sub-project, you will find the:
 
  * [Project governance](https://github.com/containerd/project/blob/main/GOVERNANCE.md),

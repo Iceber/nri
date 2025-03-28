@@ -30,7 +30,7 @@ and how it gets integrated into runtimes. It reworks how plugins are
 implemented, how they communicate with the runtime, and what kind of
 changes they can make to containers.
 
-[NRI v0.1.0](README-v0.1.0.md) used an OCI hook-like one-shot plugin invocation
+[NRI v0.1.0](./0.1.0/README.md) used an OCI hook-like one-shot plugin invocation
 mechanism where a separate instance of a plugin was spawned for every NRI
 event. This instance then used its standard input and output to receive a
 request and provide a response, both as JSON data.
